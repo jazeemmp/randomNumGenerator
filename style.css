@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: auto;
+    height: 100vh;
+    display: flex; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.95) 0%) , url('seamless-pattern-with-numbers-school-design_601658-353.avif');
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.number{
+    font-size: 140px;
+    font-weight: bolder;
+}
+.btn-container{
+    position: absolute;
+    bottom: 20%;
+}
+.btn{
+    outline: 0;
+    border: 0;
+    color: #fff;
+    background-color: #1e90ff;
+    width: 100%;
+    max-width: 350px;
+    font-weight: 500;
+    font-size: 20px;
+    height: 60px;
+    padding: 0px 40px;
+    border-radius: 2em;
+    box-shadow: 0 0.625em 1em 0 rgba(30, 143, 255, 0.35);
+   
+
+}
